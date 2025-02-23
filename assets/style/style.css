@@ -106,4 +106,85 @@ header .header-item-button {
 .cards__number {
   font-weight: bold;
   font-size: 48px;
+}
+
+.uploads {
+  padding: 50px 0;
+}
+.uploads__text {
+  font-size: 16px;
+  color: rgba(43, 46, 74, 0.8509803922);
+}
+.uploads__text-title {
+  font-size: 30px;
+  color: #2B2E4A;
+  font-weight: 600;
+}
+.uploads__card {
+  border: 2px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 10px;
+  margin: 10px;
+}
+.uploads__card p {
+  margin: auto;
+}
+.uploads__card-image {
+  position: relative;
+  padding: 10px 0;
+}
+.uploads__card-image .imgg img {
+  width: 100%;
+}
+.uploads__card-info {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+.uploads__card-info img {
+  filter: invert(100%) sepia(6%) saturate(3%) hue-rotate(1deg) brightness(105%) contrast(100%);
+}
+.uploads__card-info .info_item {
+  display: flex;
+  align-items: center;
+  padding: 20px 5px;
+}
+.uploads__card-info .info_item p {
+  padding: 0 5px;
+}
+.uploads__card-info .info_item-favorite {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.2;
+  border-radius: 100px;
+  margin: 15px;
+}
+.uploads__card-info .info_item-favorite img {
+  padding: 10px;
+  width: 100%;
+}
+.uploads__card-text {
+  padding: 10px 0;
+  color: #2B2E4A;
+}
+.uploads__card-text-price {
+  font-weight: 500;
+  font-size: 28px;
+  padding: 10px 0;
+}
+.uploads__card-text-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 70px;
+  width: 100%;
+}
+.uploads__card-text-location {
+  display: flex;
+  justify-content: start;
+  padding: 20px 0;
+  color: #6DB3EE;
+}
+.uploads__card-text-location p {
+  margin: 0 5px;
 }/*# sourceMappingURL=style.css.map */

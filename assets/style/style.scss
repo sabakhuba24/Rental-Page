@@ -107,3 +107,96 @@ header {
     font-size: 48px;
   }
 }
+
+.uploads {
+  padding: 50px 0;
+  &__text {
+    font-size: 16px;
+    color: #2B2E4AD9;
+    &-title {
+      font-size: 30px;
+      color: #2B2E4A;
+      font-weight: 600;
+    }
+  }
+
+  &__card {
+    border: 2px solid #0000001A;
+    border-radius: 10px;
+    margin: 10px;
+    p {
+      margin: auto;
+    }
+
+    &-image {
+      position: relative;
+      padding: 10px 0;
+      
+      .imgg{
+        img {
+          width: 100%;
+        }
+      }
+  
+    }
+
+    &-info {
+      position: absolute;
+      bottom: 0;
+      color: #fff;
+      height: 100%;
+      width: 100%;
+      img {
+        filter: invert(100%) sepia(6%) saturate(3%) hue-rotate(1deg) brightness(105%) contrast(100%);
+      }
+      .info_item {
+        display: flex;
+        align-items: center;
+        padding: 20px 5px;
+        p {
+          padding: 0 5px;
+        }
+
+        &-favorite {
+          background-color: #000;
+          color: #fff;
+          opacity: 0.2;
+          border-radius: 100px;
+          margin: 15px;
+          img {
+            padding: 10px;
+            width: 100%;
+          }
+        }
+      } 
+    }
+   
+    &-text {
+      padding: 10px 0;
+      color: #2B2E4A;
+      &-price {
+        font-weight: 500;
+        font-size: 28px;
+        padding: 10px 0;
+      }
+
+      &-description{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 70px;
+        width: 100%;
+      }
+
+      &-location {
+        display: flex;
+        justify-content: start;
+        padding: 20px 0;
+        color: #6DB3EE;
+        p {
+          margin: 0 5px;
+        }
+      }
+    } 
+  }
+}
+
