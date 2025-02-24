@@ -15,6 +15,7 @@ ol {
 header {
   .header-item {
     padding: 20px 0;
+
     &-list {
       font-size: 18px;
       height: 100%;
@@ -36,6 +37,7 @@ header {
 
 .landing {
   padding: 50px 0;
+
   &-image {
     img {
       width: 100%;
@@ -49,12 +51,15 @@ header {
       color: #fff;
       text-transform: capitalize;
       font-weight: bold;
+
       @media only screen and (max-width: 990px) {
         font-size: 35px;
       }
+
       @media only screen and (max-width: 600px) {
         font-size: 25px;
       }
+
       @media only screen and (max-width: 320px) {
         font-size: 15px;
       }
@@ -63,14 +68,17 @@ header {
 
   &-search {
     width: 95%;
+
     &-bottom {
       margin-top: 20px;
       padding: 20px;
       border-radius: 30px;
+
       input {
-        border: none;  
+        border: none;
         padding: 0px 10px;
         width: 100%;
+
         &::placeholder {
           color: #2b2e4a;
         }
@@ -81,28 +89,31 @@ header {
 
 .cards {
   padding-bottom: 40px;
+
   &__item {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    padding: 20px; 
+    align-items: center;
+    padding: 20px;
     border: 2px solid #0000001A;
     border-radius: 10px;
     font-size: 22px;
     max-width: 250px;
     width: 100%;
     margin-top: 15px;
-    &:hover{
+
+    &:hover {
       color: #fff;
       background-color: #2b2e4a;
       transition: all .3s;
+
       img {
         filter: invert(100%) sepia(6%) saturate(3%) hue-rotate(1deg) brightness(105%) contrast(100%);
-      }    
+      }
     }
   }
 
-  &__number{
+  &__number {
     font-weight: bold;
     font-size: 48px;
   }
@@ -110,9 +121,11 @@ header {
 
 .uploads {
   padding: 50px 0;
+
   &__text {
     font-size: 16px;
     color: #2B2E4AD9;
+
     &-title {
       font-size: 30px;
       color: #2B2E4A;
@@ -123,7 +136,8 @@ header {
   &__card {
     border: 2px solid #0000001A;
     border-radius: 10px;
-    margin: 10px;
+    margin-top: 10px;
+
     p {
       margin: auto;
     }
@@ -131,13 +145,13 @@ header {
     &-image {
       position: relative;
       padding: 10px 0;
-      
-      .imgg{
+
+      .imgg {
         img {
           width: 100%;
         }
       }
-  
+
     }
 
     &-info {
@@ -146,41 +160,45 @@ header {
       color: #fff;
       height: 100%;
       width: 100%;
+
       img {
         filter: invert(100%) sepia(6%) saturate(3%) hue-rotate(1deg) brightness(105%) contrast(100%);
       }
+
       .info_item {
         display: flex;
         align-items: center;
         padding: 20px 5px;
+
         p {
           padding: 0 5px;
         }
 
         &-favorite {
-          background-color: #000;
+          background-color: #00000029;
           color: #fff;
-          opacity: 0.2;
           border-radius: 100px;
           margin: 15px;
+
           img {
             padding: 10px;
             width: 100%;
           }
         }
-      } 
+      }
     }
-   
+
     &-text {
       padding: 10px 0;
       color: #2B2E4A;
+
       &-price {
         font-weight: 500;
         font-size: 28px;
         padding: 10px 0;
       }
 
-      &-description{
+      &-description {
         overflow: hidden;
         text-overflow: ellipsis;
         height: 70px;
@@ -192,11 +210,122 @@ header {
         justify-content: start;
         padding: 20px 0;
         color: #6DB3EE;
+
         p {
           margin: 0 5px;
         }
       }
-    } 
+    }
   }
 }
 
+.cities {
+  padding: 50px 0;
+  @media only screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  &-title {
+    padding: 20px 0;
+    font-size: 30px;
+    color: #2B2E4A;
+    font-weight: 600;
+  }
+
+  &-items {
+    .cities-item {
+      padding-bottom: 30px;
+      &-img {
+        position: relative;
+        @media only screen and (max-width: 800px) {
+          margin-top: 15px;
+        }
+      }
+
+      .city-title {
+        font-size: 24px;
+        padding: 0px 5px;
+      }
+
+      &-text {
+        position: absolute;
+        bottom: 0;
+        color: #fff;
+        padding: 0 10px;
+        text-transform: capitalize;
+        width: 380px;
+
+        p {
+          padding: 5px 15px;
+          margin-right: 10px;
+          background-color: #00000071;
+          border-radius: 100px;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  color: #fff;
+  background-color: #2B2E4A;
+  padding: 50px 0;
+  @media only screen and (max-width: 800px) {
+    text-align: center;
+  }
+  p {
+    margin: 0;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 800px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__policy {
+    p {
+      padding: 10px 0;
+    }
+
+    img {
+      width: 150px;
+      padding-bottom: 30px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+    @media only screen and (max-width: 800px) {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+
+    &-parent {
+      @media only screen and (max-width: 800px) {
+        margin: 20px 0;
+      }
+      &-item {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+
+        p {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

@@ -123,7 +123,7 @@ header .header-item-button {
 .uploads__card {
   border: 2px solid rgba(0, 0, 0, 0.1019607843);
   border-radius: 10px;
-  margin: 10px;
+  margin-top: 10px;
 }
 .uploads__card p {
   margin: auto;
@@ -154,9 +154,8 @@ header .header-item-button {
   padding: 0 5px;
 }
 .uploads__card-info .info_item-favorite {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.1607843137);
   color: #fff;
-  opacity: 0.2;
   border-radius: 100px;
   margin: 15px;
 }
@@ -187,4 +186,108 @@ header .header-item-button {
 }
 .uploads__card-text-location p {
   margin: 0 5px;
+}
+
+.cities {
+  padding: 50px 0;
+}
+@media only screen and (max-width: 800px) {
+  .cities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.cities-title {
+  padding: 20px 0;
+  font-size: 30px;
+  color: #2B2E4A;
+  font-weight: 600;
+}
+.cities-items .cities-item {
+  padding-bottom: 30px;
+}
+.cities-items .cities-item-img {
+  position: relative;
+}
+@media only screen and (max-width: 800px) {
+  .cities-items .cities-item-img {
+    margin-top: 15px;
+  }
+}
+.cities-items .cities-item .city-title {
+  font-size: 24px;
+  padding: 0px 5px;
+}
+.cities-items .cities-item-text {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 0 10px;
+  text-transform: capitalize;
+  width: 380px;
+}
+.cities-items .cities-item-text p {
+  padding: 5px 15px;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.4431372549);
+  border-radius: 100px;
+}
+
+.footer {
+  color: #fff;
+  background-color: #2B2E4A;
+  padding: 50px 0;
+}
+@media only screen and (max-width: 800px) {
+  .footer {
+    text-align: center;
+  }
+}
+.footer p {
+  margin: 0;
+}
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 800px) {
+  .footer__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.footer__policy p {
+  padding: 10px 0;
+}
+.footer__policy img {
+  width: 150px;
+  padding-bottom: 30px;
+}
+.footer__info {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+@media only screen and (max-width: 800px) {
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .footer__info-parent {
+    margin: 20px 0;
+  }
+}
+.footer__info-parent-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.footer__info-parent-item p {
+  margin-left: 5px;
 }/*# sourceMappingURL=style.css.map */
