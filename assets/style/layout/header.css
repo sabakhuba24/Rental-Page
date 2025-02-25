@@ -1,0 +1,25 @@
+header .header-item {
+  padding: 20px 0;
+}
+header .header-item-list {
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  color: #2b2e4a;
+}
+header .header-item-list ol:hover {
+  color: #6db3ee;
+  transition: all 0.2s;
+}
+header .header-item-favorite {
+  padding: 0px 10px;
+}
+header .header-item-button {
+  background-color: #6db3ee;
+  border-radius: 100px;
+  padding: 0px 15px;
+}
+
+.active {
+  color: #6db3ee;
+}/*# sourceMappingURL=header.css.map */

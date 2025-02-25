@@ -12,32 +12,8 @@ ol {
   width: 100%;
 }
 
-header {
-  .header-item {
-    padding: 20px 0;
-
-    &-list {
-      font-size: 18px;
-      height: 100%;
-      width: 100%;
-      color: #2b2e4a;
-    }
-
-    &-favorite {
-      padding: 0px 10px;
-    }
-
-    &-button {
-      background-color: #6db3ee;
-      border-radius: 100px;
-      padding: 0px 15px;
-    }
-  }
-}
-
 .landing {
   padding: 50px 0;
-
   &-image {
     img {
       width: 100%;
@@ -68,7 +44,6 @@ header {
 
   &-search {
     width: 95%;
-
     &-bottom {
       margin-top: 20px;
       padding: 20px;
@@ -268,64 +243,3 @@ header {
   }
 }
 
-.footer {
-  color: #fff;
-  background-color: #2B2E4A;
-  padding: 50px 0;
-  @media only screen and (max-width: 800px) {
-    text-align: center;
-  }
-  p {
-    margin: 0;
-  }
-
-  &__items {
-    display: flex;
-    justify-content: space-between;
-
-    @media only screen and (max-width: 800px) {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-
-  &__policy {
-    p {
-      padding: 10px 0;
-    }
-
-    img {
-      width: 150px;
-      padding-bottom: 30px;
-    }
-  }
-
-  &__info {
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
-
-    @media only screen and (max-width: 800px) {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-    }
-
-    &-parent {
-      @media only screen and (max-width: 800px) {
-        margin: 20px 0;
-      }
-      &-item {
-        display: flex;
-        align-items: center;
-        padding: 10px 0;
-
-        p {
-          margin-left: 5px;
-        }
-      }
-    }
-  }
-}
