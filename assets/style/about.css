@@ -1,0 +1,125 @@
+p {
+  margin: 0;
+}
+
+.landing {
+  padding: 100px 0;
+}
+.landing-image img {
+  width: 100%;
+  border-radius: 50px;
+}
+.landing-image-text {
+  position: absolute;
+  width: 65%;
+  height: 100%;
+  font-size: 96px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+@media only screen and (max-width: 990px) {
+  .landing-image-text {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .landing-image-text {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .landing-image-text {
+    font-size: 25px;
+  }
+}
+
+.title {
+  text-transform: capitalize;
+}
+.title-top {
+  padding: 10px;
+  border: 2px solid #2b2e4a;
+  border-radius: 20px;
+  color: #2b2e4a;
+}
+.title-top:hover {
+  color: #fff;
+  background-color: #2b2e4a;
+  transition: all 0.3s;
+}
+.title-top:hover img {
+  filter: invert(100%) sepia(6%) saturate(3%) hue-rotate(1deg) brightness(105%) contrast(100%);
+}
+.title-top:hover p {
+  color: #fff;
+}
+.title-top img {
+  width: 50px;
+}
+.title-top p {
+  color: rgba(16, 55, 88, 0.6588235294);
+  padding: 0px 10px;
+  font-size: 18px;
+}
+.title-bottom h4 {
+  color: #103758;
+  font-size: 40px;
+  padding: 15px 0;
+  font-weight: 700;
+}
+.title-bottom p {
+  font-size: 16px;
+}
+
+.team {
+  padding: 30px 0;
+}
+.team_card {
+  border: 2px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.team_card-image {
+  position: relative;
+  padding: 10px 0;
+}
+.team_card-image img {
+  width: 100%;
+}
+.team_card-image-job {
+  height: 100%;
+  position: absolute;
+  padding: 10px 15px;
+  bottom: 0;
+}
+.team_card-image-job_item img {
+  width: 25px;
+  height: 50px;
+}
+.team_card-image-job_item p {
+  padding: 0px 10px;
+}
+.team_card-text {
+  padding: 10px 0;
+  color: #2b2e4a;
+}
+
+.testimonials {
+  padding: 50px 0;
+}
+.testimonials .user {
+  border: 2px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 20px;
+  padding: 50px;
+}
+.testimonials .user-top img {
+  border-radius: 50%;
+  width: 100px;
+}
+.testimonials .user-name {
+  padding: 0px 40px;
+}
+.testimonials .user-name h5, .testimonials .user-name p {
+  font-size: 15px;
+}/*# sourceMappingURL=about.css.map */
