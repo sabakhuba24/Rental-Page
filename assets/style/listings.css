@@ -72,7 +72,7 @@
   padding: 0;
   width: 100%;
   font-size: 30px;
-  color: #2B2E4A;
+  color: #2b2e4a;
   font-weight: 600;
 }
 .uploads__card {
@@ -87,7 +87,7 @@
   position: relative;
   padding: 10px 0;
 }
-.uploads__card-image .imgg img {
+.uploads__card-image img {
   width: 100%;
 }
 .uploads__card-info {
@@ -120,7 +120,7 @@
 }
 .uploads__card-text {
   padding: 10px 0;
-  color: #2B2E4A;
+  color: #2b2e4a;
 }
 .uploads__card-text-price {
   font-weight: 500;
@@ -137,7 +137,7 @@
   display: flex;
   justify-content: start;
   padding: 20px 0;
-  color: #6DB3EE;
+  color: #6db3ee;
 }
 .uploads__card-text-location p {
   margin: 0 5px;

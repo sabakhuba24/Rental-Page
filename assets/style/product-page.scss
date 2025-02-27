@@ -1,0 +1,221 @@
+p {
+    margin: 0;
+}
+
+.house {
+    padding: 100px 0;
+    p {
+        margin: 0;
+    }
+    &-photo {
+        &-main {
+            img {
+                width: 100%;
+            }
+        }
+        &-slide {
+            padding: 10px;
+            img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+
+    &-info {
+        border: 2px solid #F4F4F4;
+        border-radius: 20px;
+        padding: 10px 30px;
+        .house-price {
+            font-size: 35px;
+            padding-top: 10px;
+            color: #2b2e4a;
+            span {
+                color: #6DB3EE;
+            }
+            border-bottom: 2px solid #F4F4F4;
+        }
+
+        .house-user {
+            padding: 20px 0;
+            img {
+                width: 80px;
+                border-radius: 50%;
+            }
+
+            &-text {
+                padding: 0px 20px;
+            }
+        }
+
+        .house-phone {
+            background-color: #6db3ee;
+            color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            p {
+                padding: 0px 20px;
+                font-size: 25px;
+            }
+        }
+    }
+
+    &-map {
+        width: 100%;
+        iframe {
+            border-radius: 20px;
+        }
+    }
+}
+
+.features {
+    padding: 50px 0;
+    p {
+        margin: 0;
+    }
+    &-group {
+        border: 2px solid #2B2E4A1A;
+        border-radius: 20px;
+        // padding: 20px;
+    }
+    &-item {
+        padding: 10px 0;
+        @media only screen and (max-width: 768px) {
+            border-bottom: 2px solid #2B2E4A1A;            
+        }
+        p {
+            padding: 0px 15px;
+        }
+    }
+}
+
+.description {
+    padding: 20px 0;
+    &-par {
+        padding: 20px 0;
+    }
+    &-price {
+        background-color: #F0F8FF30;
+        border: 2px solid #10375838;
+        border-radius: 20px;   
+        margin-top: 20px;
+        &-item {
+            padding: 10px 0;
+            p {
+                color: #2B2E4A;
+                font-weight: 700;
+            } 
+
+            .highlight {
+                background-color: #fff;
+                padding: 10px 0;
+                border: 2px solid #10375838;
+                border-radius: 20px;
+                p {
+                    font-weight: normal;
+                    padding: 0px 20px;
+                }
+            }
+        }
+    }
+}
+
+.uploads {
+    padding: 50px 0;
+    &__text {
+      font-size: 16px;
+      color: #2B2E4AD9;
+  
+      &-title {
+        font-size: 30px;
+        color: #2B2E4A;
+        font-weight: 600;
+      }
+    }
+  
+    &__card {
+      border: 2px solid #0000001A;
+      border-radius: 10px;
+      margin-top: 10px;
+  
+      p {
+        margin: auto;
+      }
+  
+      &-image {
+        position: relative;
+        padding: 10px 0;
+  
+        .imgg {
+          img {
+            width: 100%;
+          }
+        }
+  
+      }
+  
+      &-info {
+        position: absolute;
+        bottom: 0;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+  
+        img {
+          filter: invert(100%) sepia(6%) saturate(3%) hue-rotate(1deg) brightness(105%) contrast(100%);
+        }
+  
+        .info_item {
+          display: flex;
+          align-items: center;
+          padding: 20px 5px;
+  
+          p {
+            padding: 0 5px;
+          }
+  
+          &-favorite {
+            background-color: #00000029;
+            color: #fff;
+            border-radius: 100px;
+            margin: 15px;
+  
+            img {
+              padding: 10px;
+              width: 100%;
+            }
+          }
+        }
+      }
+  
+      &-text {
+        padding: 10px 0;
+        color: #2B2E4A;
+  
+        &-price {
+          font-weight: 500;
+          font-size: 28px;
+          padding: 10px 0;
+        }
+  
+        &-description {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          height: 70px;
+          width: 100%;
+        }
+  
+        &-location {
+          display: flex;
+          justify-content: start;
+          padding: 20px 0;
+          color: #6DB3EE;
+  
+          p {
+            margin: 0 5px;
+          }
+        }
+      }
+    }
+  }
+  

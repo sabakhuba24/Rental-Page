@@ -1,0 +1,192 @@
+p {
+  margin: 0;
+}
+
+.house {
+  padding: 100px 0;
+}
+.house p {
+  margin: 0;
+}
+.house-photo-main img {
+  width: 100%;
+}
+.house-photo-slide {
+  padding: 10px;
+}
+.house-photo-slide img {
+  width: 80px;
+  height: 80px;
+}
+.house-info {
+  border: 2px solid #F4F4F4;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+.house-info .house-price {
+  font-size: 35px;
+  padding-top: 10px;
+  color: #2b2e4a;
+  border-bottom: 2px solid #F4F4F4;
+}
+.house-info .house-price span {
+  color: #6DB3EE;
+}
+.house-info .house-user {
+  padding: 20px 0;
+}
+.house-info .house-user img {
+  width: 80px;
+  border-radius: 50%;
+}
+.house-info .house-user-text {
+  padding: 0px 20px;
+}
+.house-info .house-phone {
+  background-color: #6db3ee;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.house-info .house-phone p {
+  padding: 0px 20px;
+  font-size: 25px;
+}
+.house-map {
+  width: 100%;
+}
+.house-map iframe {
+  border-radius: 20px;
+}
+
+.features {
+  padding: 50px 0;
+}
+.features p {
+  margin: 0;
+}
+.features-group {
+  border: 2px solid rgba(43, 46, 74, 0.1019607843);
+  border-radius: 20px;
+}
+.features-item {
+  padding: 10px 0;
+}
+@media only screen and (max-width: 768px) {
+  .features-item {
+    border-bottom: 2px solid rgba(43, 46, 74, 0.1019607843);
+  }
+}
+.features-item p {
+  padding: 0px 15px;
+}
+
+.description {
+  padding: 20px 0;
+}
+.description-par {
+  padding: 20px 0;
+}
+.description-price {
+  background-color: rgba(240, 248, 255, 0.1882352941);
+  border: 2px solid rgba(16, 55, 88, 0.2196078431);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.description-price-item {
+  padding: 10px 0;
+}
+.description-price-item p {
+  color: #2B2E4A;
+  font-weight: 700;
+}
+.description-price-item .highlight {
+  background-color: #fff;
+  padding: 10px 0;
+  border: 2px solid rgba(16, 55, 88, 0.2196078431);
+  border-radius: 20px;
+}
+.description-price-item .highlight p {
+  font-weight: normal;
+  padding: 0px 20px;
+}
+
+.uploads {
+  padding: 50px 0;
+}
+.uploads__text {
+  font-size: 16px;
+  color: rgba(43, 46, 74, 0.8509803922);
+}
+.uploads__text-title {
+  font-size: 30px;
+  color: #2B2E4A;
+  font-weight: 600;
+}
+.uploads__card {
+  border: 2px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.uploads__card p {
+  margin: auto;
+}
+.uploads__card-image {
+  position: relative;
+  padding: 10px 0;
+}
+.uploads__card-image .imgg img {
+  width: 100%;
+}
+.uploads__card-info {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+.uploads__card-info img {
+  filter: invert(100%) sepia(6%) saturate(3%) hue-rotate(1deg) brightness(105%) contrast(100%);
+}
+.uploads__card-info .info_item {
+  display: flex;
+  align-items: center;
+  padding: 20px 5px;
+}
+.uploads__card-info .info_item p {
+  padding: 0 5px;
+}
+.uploads__card-info .info_item-favorite {
+  background-color: rgba(0, 0, 0, 0.1607843137);
+  color: #fff;
+  border-radius: 100px;
+  margin: 15px;
+}
+.uploads__card-info .info_item-favorite img {
+  padding: 10px;
+  width: 100%;
+}
+.uploads__card-text {
+  padding: 10px 0;
+  color: #2B2E4A;
+}
+.uploads__card-text-price {
+  font-weight: 500;
+  font-size: 28px;
+  padding: 10px 0;
+}
+.uploads__card-text-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 70px;
+  width: 100%;
+}
+.uploads__card-text-location {
+  display: flex;
+  justify-content: start;
+  padding: 20px 0;
+  color: #6DB3EE;
+}
+.uploads__card-text-location p {
+  margin: 0 5px;
+}/*# sourceMappingURL=product-page.css.map */
