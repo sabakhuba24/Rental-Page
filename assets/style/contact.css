@@ -1,0 +1,78 @@
+p {
+  margin: 0;
+}
+
+.contact {
+  padding: 100px 0;
+}
+.contact-top .top-item {
+  background-color: #6db3ee;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+}
+@media only screen and (max-width: 800px) {
+  .contact-top .top-item {
+    width: 220px;
+  }
+}
+.contact-top .top-item p {
+  padding: 0px 10px;
+  font-size: 14px;
+}
+.contact-bottom input {
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(221, 221, 221, 0.3294117647);
+  padding: 15px;
+}
+.contact-bottom-inputs {
+  width: 100%;
+}
+.contact-bottom-inputs input {
+  width: 300px;
+}
+@media only screen and (max-width: 600px) {
+  .contact-bottom-inputs input {
+    width: 100%;
+  }
+}
+.contact-bottom-message {
+  position: relative;
+}
+.contact-bottom-message input {
+  width: 100%;
+  height: 150px;
+}
+.contact-bottom-message-button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 20px;
+}
+.contact-bottom-message-button button {
+  padding: 10px 24px;
+  background-color: #6db3ee;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+@media only screen and (max-width: 600px) {
+  .contact-socials {
+    margin-top: 20px;
+  }
+}
+.contact-socials-item {
+  width: 300px;
+}
+.contact-socials-item p {
+  padding: 0px 20px;
+}
+
+.map {
+  padding: 30px 0;
+}
+.map iframe {
+  border-radius: 20px;
+}/*# sourceMappingURL=contact.css.map */
