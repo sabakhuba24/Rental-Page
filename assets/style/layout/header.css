@@ -28,6 +28,35 @@ header .header-item-button {
   border-radius: 100px;
   padding: 0px 15px;
 }
+header .burger-menu .burger-icon {
+  font-size: 30px;
+  color: #6db3ee;
+}
+header .burger-menu .open {
+  display: block;
+}
+header .burger-menu-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px 50px;
+  background-color: #fff;
+  z-index: 1;
+  height: 100%;
+  box-shadow: -13px 0px 20px -14px rgba(0, 0, 0, 0.75);
+  display: none;
+}
+header .burger-menu-nav ul {
+  margin-top: 30px;
+}
+header .burger-menu-nav ul ol {
+  padding: 5px 0;
+  font-size: 20px;
+}
+header .burger-menu-nav .burger-close {
+  font-size: 30px;
+  color: #6db3ee;
+}
 
 .active {
   color: #6db3ee;
